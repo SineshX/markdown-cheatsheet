@@ -4,56 +4,56 @@ Markdown Cheatsheet<a name="TOP"></a>
 - - - - 
 # Heading 1 #
 
-    Markup :  # Heading 1 #
+    raw sample  :  # Heading 1 #
 
     -OR-
 
-    Markup :  ============= (below H1 text)
+    raw sample  :  ============= (below H1 text)
 
 ## Heading 2 ##
 
-    Markup :  ## Heading 2 ##
+    raw sample  :  ## Heading 2 ##
 
     -OR-
 
-    Markup: --------------- (below H2 text)
+    raw sample : --------------- (below H2 text)
 
 ### Heading 3 ###
 
-    Markup :  ### Heading 3 ###
+    raw sample  :  ### Heading 3 ###
 
 #### Heading 4 ####
 
-    Markup :  #### Heading 4 ####
+    raw sample  :  #### Heading 4 ####
 
 
 Common text
 
-    Markup :  Common text
+    raw sample  :  Common text
 
 _Emphasized text_
 
-    Markup :  _Emphasized text_ or *Emphasized text*
+    raw sample  :  _Emphasized text_ or *Emphasized text*
 
 ~~Strikethrough text~~
 
-    Markup :  ~~Strikethrough text~~
+    raw sample  :  ~~Strikethrough text~~
 
 __Strong text__
 
-    Markup :  __Strong text__ or **Strong text**
+    raw sample  :  __Strong text__ or **Strong text**
 
 ___Strong emphasized text___
 
-    Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
+    raw sample  :  ___Strong emphasized text___ or ***Strong emphasized text***
 
 [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
-    Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+    raw sample  :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
 [heading-1](#heading-1 "Goto heading-1")
     
-    Markup: [heading-1](#heading-1 "Goto heading-1")
+    raw sample : [heading-1](#heading-1 "Goto heading-1")
 
 Table, like this one :
 
@@ -99,7 +99,7 @@ Content Cell  | Content Cell | Content Cell
 
 `code()`
 
-    Markup :  `code()`
+    raw sample  :  `code()`
 
 ```javascript
     var specificLanguage_code = 
@@ -118,7 +118,7 @@ Content Cell  | Content Cell | Content Cell
     }
 ```
 
-    Markup : ```javascript
+    raw sample  : ```javascript
              ```
 
 * Bullet list
@@ -127,14 +127,14 @@ Content Cell  | Content Cell | Content Cell
 * Bullet list item 2
 
 ~~~
- Markup : * Bullet list
+ raw sample  : * Bullet list
               * Nested bullet
                   * Sub-nested bullet etc
           * Bullet list item 2
 
 -OR-
 
- Markup : - Bullet list
+ raw sample  : - Bullet list
               - Nested bullet
                   - Sub-nested bullet etc
           - Bullet list item 2 
@@ -146,7 +146,7 @@ Content Cell  | Content Cell | Content Cell
 2. Which is numbered
 
 ~~~
- Markup : 1. A numbered list
+ raw sample  : 1. A numbered list
               1. A nested numbered list
               2. Which is numbered
           2. Which is numbered
@@ -156,7 +156,7 @@ Content Cell  | Content Cell | Content Cell
 - [x] A completed task
 
 ~~~
- Markup : - [ ] An uncompleted task
+ raw sample  : - [ ] An uncompleted task
           - [x] A completed task
 ~~~
 
@@ -164,26 +164,26 @@ Content Cell  | Content Cell | Content Cell
     - [ ] A subtask
 
 ~~~
- Markup : - [ ] An uncompleted task
+ raw sample  : - [ ] An uncompleted task
               - [ ] A subtask
 ~~~
 
 > Blockquote
 >> Nested blockquote
 
-    Markup :  > Blockquote
+    raw sample  :  > Blockquote
               >> Nested Blockquote
 
 _Horizontal line :_
 - - - -
 
-    Markup :  - - - -
+    raw sample  :  - - - -
 
 _Image with alt :_
 
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
-    Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+    raw sample  : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 Foldable text:
 
@@ -196,7 +196,7 @@ Foldable text:
   <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
 </details>
 
-    Markup : <details>
+    raw sample  : <details>
                <summary>Title 1</summary>
                <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
              </details>
@@ -210,7 +210,7 @@ Link to a specific part of the page:
 
 [Go To TOP](#TOP)
    
-    Markup : [text goes here](#section_name)
+    raw sample  : [text goes here](#section_name)
               section_title<a name="section_name"></a>    
 
 Hotkey:
@@ -219,7 +219,7 @@ Hotkey:
 
 <kbd>⇧⌘F</kbd>
 
-    Markup : <kbd>⌘F</kbd>
+    raw sample  : <kbd>⌘F</kbd>
 
 Hotkey list:
 
@@ -244,4 +244,4 @@ Emoji:
 
 :exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
 
-    Markup : Code appears between colons :EMOJICODE:
+    raw sample  : Code appears between colons :EMOJICODE:
